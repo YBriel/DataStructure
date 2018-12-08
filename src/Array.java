@@ -1,9 +1,10 @@
-public class Array {
-    private int[] data; //int类型数组
+public class Array<E> {
+    private E[] data; //int类型数组
     private int size;  //描述data数组有多少有用的元素
 
     public Array(int capacity) {
-        data = new int[capacity];
+        //强制转换
+        data =(E[]) new Object[capacity];
         size = 0;
     }
 
@@ -28,7 +29,7 @@ public class Array {
     }
 
     //往数组末尾添加一个元素
-    public void addLast(int e) {
+    public void addLast(E e) {
         //判断是否有容量容纳新的元素
         if (size == data.length) {
             throw new IllegalArgumentException("AddLast failed,array is full");
@@ -38,12 +39,12 @@ public class Array {
     }
 
     //数组头添加元素
-    public void addFirst(int e) {
+    public void addFirst(E e) {
         add(0, e);
     }
 
     //往数组中插入元素
-    public void add(int index, int e) {
+    public void add(int index, E e) {
         //往index插入e元素
         if (size == data.length) {
             throw new IllegalArgumentException("AddLast failed,array is full");
@@ -59,9 +60,9 @@ public class Array {
     }
 
     //是否包含元素e
-    public boolean contains(int e) {
+    public boolean contains(E e) {
         for (int i = 0; i < size; i++) {
-            if (data[i] == e) {
+            if (data[i].equals(e)) {
                 return true;
             }
         }
@@ -69,34 +70,34 @@ public class Array {
     }
 
     //是否找到元素e
-    public int find(int e) {
+    public int find(E e) {
         for (int i = 0; i < size; i++) {
-            if (data[i] == e) {
+            if (data[i].equals(e) ) {
                 return i;
             }
         }
         return -1;
     }
     //删除元素e
-    public int remove(int index){
+    public E remove(int index){
         if (size == data.length) {
             throw new IllegalArgumentException("AddLast failed,array is full");
         }
-        int ret=data[index];
+        E ret=data[index];
         for(int i=index+1;i<size;i++){
             data[i-1]=data[i];
         }size--;
         return ret;
     }
     //移除第一个元素e
-    public int removeFirst(){
+    public E removeFirst(){
         return remove(0);
     }
     //移除第二个元素
-    public int removeLast(){
+    public E removeLast(){
         return remove(size-1);
     }
-    public void removeElement(int e){
+    public void removeElement(E e){
         int index = find(e);
         if(index !=-1){
             remove(index);
