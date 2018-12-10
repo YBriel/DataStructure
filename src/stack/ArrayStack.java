@@ -44,8 +44,9 @@ public class ArrayStack<E> implements Stack<E> {
           res.append(array.get(i));
           if(i !=array.getSize()-1){
               res.append(',');
-          }res.append("] top");
-      }return res.toString();
+          }
+      }res.append("] top");
+      return res.toString();
   }
 
 }
