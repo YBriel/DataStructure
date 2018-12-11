@@ -25,7 +25,7 @@ public class ArrayStack<E> implements Stack<E> {
   }
   @Override
     public void push(E e){
-      array.addLast(e);
+      array.addFirst(e);
   }
   @Override
     public E pop(){

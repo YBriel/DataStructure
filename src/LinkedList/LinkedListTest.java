@@ -1,8 +1,10 @@
 package LinkedList;
 
+import LinkedListStack.LinkedListStack;
+
 public class LinkedListTest {
     public static void main(String[] args) {
-        LinkedList<Integer> linkedList=new LinkedList<Integer>();
+     /*   LinkedList<Integer> linkedList=new LinkedList<Integer>();
         for(int i=0;i<5;i++){
             linkedList.addFirst(i);
             System.out.println(linkedList);
@@ -17,6 +19,14 @@ public class LinkedListTest {
         System.out.println(linkedList);
 
         linkedList.removeLast();
+        System.out.println(linkedList);*/
+
+        LinkedListStack<Integer> linkedList= new LinkedListStack<Integer>();
+        for(int i=0;i<5;i++){
+            linkedList.push(i);
+            System.out.println(linkedList);
+        }
+        linkedList.pop();
         System.out.println(linkedList);
     }
 }

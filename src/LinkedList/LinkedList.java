@@ -1,6 +1,7 @@
 package LinkedList;
 //链表是增删改查的时间复杂度都是o(n)
 //适合只对链表头进行操作
+
 import sun.org.mozilla.javascript.internal.ast.WhileLoop;
 
 //链表的添加元素
