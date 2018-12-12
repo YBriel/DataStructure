@@ -1,3 +1,5 @@
+package Array;
+
 public class ArrayTest {
     public static void main(String[] args) {
         Array<Integer> arr=new Array<Integer>(20);

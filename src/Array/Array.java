@@ -1,3 +1,5 @@
+package Array;
+
 public class Array<E> {
     private E[] data; //int类型数组
     private int size;  //描述data数组有多少有用的元素
@@ -106,7 +108,7 @@ public class Array<E> {
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
-        res.append(String.format("Array: size= %d , capacity= %d \n", size, data.length));
+        res.append(String.format("Array.Array: size= %d , capacity= %d \n", size, data.length));
         res.append("[");
         for (int i = 0; i < size; i++) {
             res.append(data[i]);
