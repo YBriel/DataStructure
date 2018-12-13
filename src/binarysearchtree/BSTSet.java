@@ -23,7 +23,7 @@ public class BSTSet<E extends Comparable<E>> implements Set<E> {
 
     @Override
     public boolean contains(E e) {
-        return false;
+        return bst.contains(e);
     }
 
     @Override

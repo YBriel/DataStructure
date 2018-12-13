@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45f1745d-1654-44a4-8a6f-79f20844c0ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binarysearchtree/BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binarysearchtree/BSTSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binarysearchtree/Set.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/RemoveDumplicate/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/RemoveDumplicate/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/RemoveDumplicate/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/recursion.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/ArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RegexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/RegexTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UploadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/UploadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/IsValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/bracketsMatch/IsValid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/IsValidBySelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/bracketsMatch/IsValidBySelf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queue/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/binarysearchtree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarysearchtree/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/binarysearchtree/BSTSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarysearchtree/BSTSet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -73,35 +56,36 @@
     <session id="-1538575212">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="82" />
+          <entry key="java" value="87" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="82" />
+          <entry key="JAVA" value="87" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="6908" />
+          <entry key="java" value="8845" />
           <entry key="txt" value="289" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6908" />
+          <entry key="JAVA" value="8845" />
           <entry key="PLAIN_TEXT" value="290" />
         </counts>
       </usages-collector>
@@ -112,44 +96,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/binarysearchtree/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-750">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="347">
+              <caret line="244" column="26" selection-start-line="244" selection-start-column="26" selection-end-line="244" selection-end-column="26" />
               <folding>
-                <element signature="e#0#1564#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#1074#1075#0" expanded="true" />
+                <element signature="e#1114#1115#0" expanded="true" />
+                <element signature="e#1565#1566#0" expanded="true" />
+                <element signature="e#1595#1596#0" expanded="true" />
+                <element signature="e#2808#2809#0" expanded="true" />
+                <element signature="e#2835#2836#0" expanded="true" />
+                <element signature="e#3196#3202#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/binarysearchtree/Set.java">
+        <entry file="file://$PROJECT_DIR$/src/binarysearchtree/BSTSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="200">
+              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+              <folding>
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/binarysearchtree/BSTSet.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/binarysearchtree/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="138">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding>
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#195#204#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -227,8 +224,9 @@
         <option value="$PROJECT_DIR$/src/recursion/recursion.txt" />
         <option value="$PROJECT_DIR$/src/recursion/Sum.java" />
         <option value="$PROJECT_DIR$/src/binarysearchtree/Set.java" />
-        <option value="$PROJECT_DIR$/src/binarysearchtree/BST.java" />
+        <option value="$PROJECT_DIR$/src/binarysearchtree/Main.java" />
         <option value="$PROJECT_DIR$/src/binarysearchtree/BSTSet.java" />
+        <option value="$PROJECT_DIR$/src/binarysearchtree/BST.java" />
       </list>
     </option>
   </component>
@@ -244,10 +242,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="543" />
-    <option name="y" value="122" />
+    <option name="x" value="786" />
+    <option name="y" value="85" />
     <option name="width" value="1406" />
-    <option name="height" value="837" />
+    <option name="height" value="842" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -308,7 +306,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544606662185" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544683610208" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
@@ -332,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Sum">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -579,19 +577,6 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.Hello" />
-      <module name="Array" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LinkedListQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="queue.LinkedListQueue" />
       <module name="Array" />
@@ -611,6 +596,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysearchtree.Main" />
+      <module name="Array" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binarysearchtree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -695,19 +693,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Hello" />
       <item itemvalue="Application.LinkedListTest" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.LinkedListQueue" />
       <item itemvalue="Application.Sum" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Sum" />
         <item itemvalue="Application.LinkedListQueue" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.LinkedListTest" />
-        <item itemvalue="Application.Hello" />
       </list>
     </recent_temporary>
   </component>
@@ -828,7 +826,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544594116948</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="linkedList">
+      <created>1544607091623</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1544607091623</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -844,9 +849,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="543" y="122" width="1406" height="837" extended-state="0" />
+    <frame x="786" y="85" width="1406" height="842" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15156017" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15304606" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -855,7 +861,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32859176" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30156472" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22316384" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -930,9 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -981,13 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1002,22 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,9 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1059,10 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="62" selection-start-line="62" selection-end-line="72" selection-end-column="5" />
-          <folding>
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1080,13 +1053,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/commentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/commentTest.java" />
     <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3375">
@@ -1116,27 +1083,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/ss.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/RemoveDumplicate/RemoveDumplicated.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/ss.java" />
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/src/leetcode/RemoveDumplicate/RemoveDumplicated.java" />
     <entry file="file://$PROJECT_DIR$/src/leetcode/bracketsMatch/IsValidBySelf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -1155,10 +1104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1233,46 +1178,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="29" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/binarysearchtree/Set.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/binarysearchtree/BST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-750">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#0#1564#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="125">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/binarysearchtree/BSTSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="200">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding>
             <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
             <element signature="e#351#352#0" expanded="true" />
             <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binarysearchtree/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="e#195#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binarysearchtree/BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="244" column="26" selection-start-line="244" selection-start-column="26" selection-end-line="244" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1565#1566#0" expanded="true" />
+            <element signature="e#1595#1596#0" expanded="true" />
+            <element signature="e#2808#2809#0" expanded="true" />
+            <element signature="e#2835#2836#0" expanded="true" />
+            <element signature="e#3196#3202#0" expanded="true" />
           </folding>
         </state>
       </provider>
