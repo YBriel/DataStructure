@@ -15,6 +15,14 @@ public class Array<E> {
         this(10);
     }
 
+    public Array(E[] arr){
+        data=(E[])new Object[arr.length];
+        for(int i=0;i<arr.length;i++){
+            data[i]=arr[i];
+            size++;
+        }
+    }
+
     //获取数组中的元素个数
     public int getSize() {
         return size;
@@ -78,7 +86,12 @@ public class Array<E> {
         data[index] = e;
         size++;
     }
-
+    // 修改index索引位置的元素为e
+    public void set(int index, E e){
+        if(index < 0 || index >= size)
+            throw new IllegalArgumentException("Set failed. Index is illegal.");
+        data[index] = e;
+    }
     //是否包含元素e
     public boolean contains(E e) {
         for (int i = 0; i < size; i++) {

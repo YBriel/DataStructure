@@ -13,6 +13,12 @@ public class MaxHeap<E extends Comparable<E>>  {
     public MaxHeap(){
         data=new Array<E>();
     }
+    public MaxHeap(E[] arr){
+        data=new Array<E>(arr);
+        for (int i=parent(arr.length-1);i>=0;i++){
+            siftDown(i);
+        }
+    }
 
     public int size(){
         return data.getSize();
@@ -70,4 +76,13 @@ public class MaxHeap<E extends Comparable<E>>  {
             k=j;
         }
     }
+//    取出最大的元素，并且替换成元素e
+    public E replace(E e){
+        E ret=findMax();
+        data.set(0,e);
+        siftDown(0);
+        return ret;
+    }
+    //heapify将任意数组整理成堆的形状
+
 }
